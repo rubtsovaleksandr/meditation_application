@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E332D96256ADAD400894AD2 /* ChooseTopicViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E332D95256ADAD400894AD2 /* ChooseTopicViewCell.swift */; };
+		9E332D98256BCCDC00894AD2 /* ChooseTopicViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E332D97256BCCDC00894AD2 /* ChooseTopicViewLayout.swift */; };
+		9E332D9C257435D300894AD2 /* CourseDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E332D9B257435D300894AD2 /* CourseDetailsViewController.swift */; };
+		9E332D9E2574F16000894AD2 /* ChooseTopicViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E332D9D2574F16000894AD2 /* ChooseTopicViewItem.swift */; };
+		9E332DA2257500D000894AD2 /* CourseDetailsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E332DA1257500D000894AD2 /* CourseDetailsViewCell.swift */; };
+		9E332DA625755D1C00894AD2 /* MaleVoiceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E332DA525755D1C00894AD2 /* MaleVoiceCell.swift */; };
+		9E332DAB25783DCE00894AD2 /* VoiceItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E332DAA25783DCE00894AD2 /* VoiceItem.swift */; };
+		9E332DAE257D476900894AD2 /* MeditateViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E332DAD257D476900894AD2 /* MeditateViewCell.swift */; };
+		9E332DB0257D50B900894AD2 /* IconsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E332DAF257D50B900894AD2 /* IconsCollectionViewCell.swift */; };
+		9E332DB3257D5D8000894AD2 /* IconsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E332DB2257D5D8000894AD2 /* IconsItem.swift */; };
+		9E332DB5257E319A00894AD2 /* DailyCalmCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E332DB4257E319A00894AD2 /* DailyCalmCell.swift */; };
+		9E332DB7257E389400894AD2 /* MeditateScrollViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E332DB6257E389400894AD2 /* MeditateScrollViewCell.swift */; };
+		9E332DBA257E3AB900894AD2 /* MeditateScrollViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E332DB9257E3AB900894AD2 /* MeditateScrollViewLayout.swift */; };
+		9E332DBC257E444F00894AD2 /* ScrollItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E332DBB257E444F00894AD2 /* ScrollItem.swift */; };
+		9E81680C255D68F100A1AD76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E81680B255D68F100A1AD76 /* AppDelegate.swift */; };
+		9E816810255D68F100A1AD76 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E81680F255D68F100A1AD76 /* ViewController.swift */; };
+		9E816815255D68F300A1AD76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E816814255D68F300A1AD76 /* Assets.xcassets */; };
+		9E816818255D68F300A1AD76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E816816255D68F300A1AD76 /* LaunchScreen.storyboard */; };
+		9E816822255D6C6700A1AD76 /* SleepMusicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E816821255D6C6700A1AD76 /* SleepMusicCell.swift */; };
+		9E816824255EA5BA00A1AD76 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E816823255EA5BA00A1AD76 /* HomeViewController.swift */; };
+		9E816826255EA5DF00A1AD76 /* MeditateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E816825255EA5DF00A1AD76 /* MeditateViewController.swift */; };
+		9E816828255EA5F100A1AD76 /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E816827255EA5F100A1AD76 /* MusicViewController.swift */; };
+		9E81682A255EA60600A1AD76 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E816829255EA60600A1AD76 /* UserViewController.swift */; };
+		9E81682E255ECD3400A1AD76 /* SecondSleepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E81682D255ECD3400A1AD76 /* SecondSleepViewController.swift */; };
+		9E816830255ECD6700A1AD76 /* HeadingSleepCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E81682F255ECD6700A1AD76 /* HeadingSleepCell.swift */; };
+		9E816832255ECFCC00A1AD76 /* InfoSleepCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E816831255ECFCC00A1AD76 /* InfoSleepCell.swift */; };
+		9E816834255ECFE000A1AD76 /* RelatedSleepCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E816833255ECFE000A1AD76 /* RelatedSleepCell.swift */; };
+		9E8168562562DA5900A1AD76 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8168552562DA5900A1AD76 /* RegisterViewController.swift */; };
+		9E8168582562DAB900A1AD76 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8168572562DAB900A1AD76 /* StartViewController.swift */; };
+		9E81685A2562DB1700A1AD76 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8168592562DB1700A1AD76 /* LoginViewController.swift */; };
+		9E81685C2562DB2F00A1AD76 /* GetStartedVIewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E81685B2562DB2F00A1AD76 /* GetStartedVIewController.swift */; };
+		9E81685E2563225C00A1AD76 /* LoginVIewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E81685D2563225C00A1AD76 /* LoginVIewCell.swift */; };
+		9E8168612563DD7E00A1AD76 /* RegisterViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8168602563DD7E00A1AD76 /* RegisterViewCell.swift */; };
+		9E8168632565240400A1AD76 /* RemindersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8168622565240400A1AD76 /* RemindersViewController.swift */; };
+		9E8168672565339800A1AD76 /* ChooseTopicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8168662565339800A1AD76 /* ChooseTopicViewController.swift */; };
+		9E81687325659F5100A1AD76 /* VerticalHomeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E81687225659F5100A1AD76 /* VerticalHomeViewCell.swift */; };
+		9E81687525659F7B00A1AD76 /* HorizontalHomeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E81687425659F7B00A1AD76 /* HorizontalHomeViewCell.swift */; };
+		9E81687725659F9900A1AD76 /* VerticalScrollHomeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E81687625659F9900A1AD76 /* VerticalScrollHomeViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9E332D95256ADAD400894AD2 /* ChooseTopicViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseTopicViewCell.swift; sourceTree = "<group>"; };
+		9E332D97256BCCDC00894AD2 /* ChooseTopicViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseTopicViewLayout.swift; sourceTree = "<group>"; };
+		9E332D9B257435D300894AD2 /* CourseDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetailsViewController.swift; sourceTree = "<group>"; };
+		9E332D9D2574F16000894AD2 /* ChooseTopicViewItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseTopicViewItem.swift; sourceTree = "<group>"; };
+		9E332DA1257500D000894AD2 /* CourseDetailsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetailsViewCell.swift; sourceTree = "<group>"; };
+		9E332DA525755D1C00894AD2 /* MaleVoiceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaleVoiceCell.swift; sourceTree = "<group>"; };
+		9E332DAA25783DCE00894AD2 /* VoiceItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceItem.swift; sourceTree = "<group>"; };
+		9E332DAD257D476900894AD2 /* MeditateViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditateViewCell.swift; sourceTree = "<group>"; };
+		9E332DAF257D50B900894AD2 /* IconsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconsCollectionViewCell.swift; sourceTree = "<group>"; };
+		9E332DB2257D5D8000894AD2 /* IconsItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconsItem.swift; sourceTree = "<group>"; };
+		9E332DB4257E319A00894AD2 /* DailyCalmCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyCalmCell.swift; sourceTree = "<group>"; };
+		9E332DB6257E389400894AD2 /* MeditateScrollViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditateScrollViewCell.swift; sourceTree = "<group>"; };
+		9E332DB9257E3AB900894AD2 /* MeditateScrollViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditateScrollViewLayout.swift; sourceTree = "<group>"; };
+		9E332DBB257E444F00894AD2 /* ScrollItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollItem.swift; sourceTree = "<group>"; };
+		9E816808255D68F100A1AD76 /* Meditation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Meditation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E81680B255D68F100A1AD76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9E81680F255D68F100A1AD76 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9E816814255D68F300A1AD76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9E816817255D68F300A1AD76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9E816819255D68F300A1AD76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E816821255D6C6700A1AD76 /* SleepMusicCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepMusicCell.swift; sourceTree = "<group>"; };
+		9E816823255EA5BA00A1AD76 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9E816825255EA5DF00A1AD76 /* MeditateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditateViewController.swift; sourceTree = "<group>"; };
+		9E816827255EA5F100A1AD76 /* MusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicViewController.swift; sourceTree = "<group>"; };
+		9E816829255EA60600A1AD76 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		9E81682D255ECD3400A1AD76 /* SecondSleepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondSleepViewController.swift; sourceTree = "<group>"; };
+		9E81682F255ECD6700A1AD76 /* HeadingSleepCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadingSleepCell.swift; sourceTree = "<group>"; };
+		9E816831255ECFCC00A1AD76 /* InfoSleepCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoSleepCell.swift; sourceTree = "<group>"; };
+		9E816833255ECFE000A1AD76 /* RelatedSleepCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelatedSleepCell.swift; sourceTree = "<group>"; };
+		9E8168552562DA5900A1AD76 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		9E8168572562DAB900A1AD76 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		9E8168592562DB1700A1AD76 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9E81685B2562DB2F00A1AD76 /* GetStartedVIewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStartedVIewController.swift; sourceTree = "<group>"; };
+		9E81685D2563225C00A1AD76 /* LoginVIewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVIewCell.swift; sourceTree = "<group>"; };
+		9E8168602563DD7E00A1AD76 /* RegisterViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewCell.swift; sourceTree = "<group>"; };
+		9E8168622565240400A1AD76 /* RemindersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersViewController.swift; sourceTree = "<group>"; };
+		9E8168662565339800A1AD76 /* ChooseTopicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseTopicViewController.swift; sourceTree = "<group>"; };
+		9E81687225659F5100A1AD76 /* VerticalHomeViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalHomeViewCell.swift; sourceTree = "<group>"; };
+		9E81687425659F7B00A1AD76 /* HorizontalHomeViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalHomeViewCell.swift; sourceTree = "<group>"; };
+		9E81687625659F9900A1AD76 /* VerticalScrollHomeViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalScrollHomeViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E816805255D68F100A1AD76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9E332DAC257D474700894AD2 /* MeditateViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9E816825255EA5DF00A1AD76 /* MeditateViewController.swift */,
+				9E332DAD257D476900894AD2 /* MeditateViewCell.swift */,
+				9E332DB1257D5D5B00894AD2 /* IconsViewCell */,
+				9E332DB4257E319A00894AD2 /* DailyCalmCell.swift */,
+				9E332DB8257E3A8B00894AD2 /* MeditateScrollViewCell */,
+			);
+			path = MeditateViewController;
+			sourceTree = "<group>";
+		};
+		9E332DB1257D5D5B00894AD2 /* IconsViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				9E332DAF257D50B900894AD2 /* IconsCollectionViewCell.swift */,
+				9E332DB2257D5D8000894AD2 /* IconsItem.swift */,
+			);
+			path = IconsViewCell;
+			sourceTree = "<group>";
+		};
+		9E332DB8257E3A8B00894AD2 /* MeditateScrollViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				9E332DB6257E389400894AD2 /* MeditateScrollViewCell.swift */,
+				9E332DB9257E3AB900894AD2 /* MeditateScrollViewLayout.swift */,
+				9E332DBB257E444F00894AD2 /* ScrollItem.swift */,
+			);
+			path = MeditateScrollViewCell;
+			sourceTree = "<group>";
+		};
+		9E8167FF255D68F100A1AD76 = {
+			isa = PBXGroup;
+			children = (
+				9E81680A255D68F100A1AD76 /* Meditation */,
+				9E816809255D68F100A1AD76 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9E816809255D68F100A1AD76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E816808255D68F100A1AD76 /* Meditation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E81680A255D68F100A1AD76 /* Meditation */ = {
+			isa = PBXGroup;
+			children = (
+				9E81680B255D68F100A1AD76 /* AppDelegate.swift */,
+				9E81686A25659DB500A1AD76 /* StartViewController */,
+				9E81686B25659E0A00A1AD76 /* RegisterViewController */,
+				9E81686C25659E2300A1AD76 /* LoginViewController */,
+				9E81686D25659E3800A1AD76 /* GetStartedViewController */,
+				9E81686E25659E4C00A1AD76 /* ChooseTopicViewController */,
+				9E81686F25659E6600A1AD76 /* RemindersViewController */,
+				9E81687825659FA400A1AD76 /* HomeViewController */,
+				9E81687025659E8E00A1AD76 /* SleepViewController */,
+				9E332DAC257D474700894AD2 /* MeditateViewController */,
+				9E816827255EA5F100A1AD76 /* MusicViewController.swift */,
+				9E816829255EA60600A1AD76 /* UserViewController.swift */,
+				9E816814255D68F300A1AD76 /* Assets.xcassets */,
+				9E816816255D68F300A1AD76 /* LaunchScreen.storyboard */,
+				9E816819255D68F300A1AD76 /* Info.plist */,
+			);
+			path = Meditation;
+			sourceTree = "<group>";
+		};
+		9E81686A25659DB500A1AD76 /* StartViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9E8168572562DAB900A1AD76 /* StartViewController.swift */,
+			);
+			path = StartViewController;
+			sourceTree = "<group>";
+		};
+		9E81686B25659E0A00A1AD76 /* RegisterViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9E8168552562DA5900A1AD76 /* RegisterViewController.swift */,
+				9E8168602563DD7E00A1AD76 /* RegisterViewCell.swift */,
+			);
+			path = RegisterViewController;
+			sourceTree = "<group>";
+		};
+		9E81686C25659E2300A1AD76 /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9E8168592562DB1700A1AD76 /* LoginViewController.swift */,
+				9E81685D2563225C00A1AD76 /* LoginVIewCell.swift */,
+			);
+			path = LoginViewController;
+			sourceTree = "<group>";
+		};
+		9E81686D25659E3800A1AD76 /* GetStartedViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9E81685B2562DB2F00A1AD76 /* GetStartedVIewController.swift */,
+			);
+			path = GetStartedViewController;
+			sourceTree = "<group>";
+		};
+		9E81686E25659E4C00A1AD76 /* ChooseTopicViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9E8168662565339800A1AD76 /* ChooseTopicViewController.swift */,
+				9E332D95256ADAD400894AD2 /* ChooseTopicViewCell.swift */,
+				9E332D97256BCCDC00894AD2 /* ChooseTopicViewLayout.swift */,
+				9E332D9D2574F16000894AD2 /* ChooseTopicViewItem.swift */,
+			);
+			path = ChooseTopicViewController;
+			sourceTree = "<group>";
+		};
+		9E81686F25659E6600A1AD76 /* RemindersViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9E8168622565240400A1AD76 /* RemindersViewController.swift */,
+			);
+			path = RemindersViewController;
+			sourceTree = "<group>";
+		};
+		9E81687025659E8E00A1AD76 /* SleepViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9E81680F255D68F100A1AD76 /* ViewController.swift */,
+				9E816821255D6C6700A1AD76 /* SleepMusicCell.swift */,
+				9E81687125659EA000A1AD76 /* SecondSleepViewController */,
+			);
+			path = SleepViewController;
+			sourceTree = "<group>";
+		};
+		9E81687125659EA000A1AD76 /* SecondSleepViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9E81682D255ECD3400A1AD76 /* SecondSleepViewController.swift */,
+				9E81682F255ECD6700A1AD76 /* HeadingSleepCell.swift */,
+				9E816831255ECFCC00A1AD76 /* InfoSleepCell.swift */,
+				9E816833255ECFE000A1AD76 /* RelatedSleepCell.swift */,
+			);
+			path = SecondSleepViewController;
+			sourceTree = "<group>";
+		};
+		9E81687825659FA400A1AD76 /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9E816823255EA5BA00A1AD76 /* HomeViewController.swift */,
+				9E81687225659F5100A1AD76 /* VerticalHomeViewCell.swift */,
+				9E81687425659F7B00A1AD76 /* HorizontalHomeViewCell.swift */,
+				9E81687625659F9900A1AD76 /* VerticalScrollHomeViewCell.swift */,
+				9E332D9B257435D300894AD2 /* CourseDetailsViewController.swift */,
+				9E332DA1257500D000894AD2 /* CourseDetailsViewCell.swift */,
+				9E332DA525755D1C00894AD2 /* MaleVoiceCell.swift */,
+				9E332DAA25783DCE00894AD2 /* VoiceItem.swift */,
+			);
+			path = HomeViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E816807255D68F100A1AD76 /* Meditation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E81681C255D68F300A1AD76 /* Build configuration list for PBXNativeTarget "Meditation" */;
+			buildPhases = (
+				9E816804255D68F100A1AD76 /* Sources */,
+				9E816805255D68F100A1AD76 /* Frameworks */,
+				9E816806255D68F100A1AD76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Meditation;
+			productName = Meditation;
+			productReference = 9E816808255D68F100A1AD76 /* Meditation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E816800255D68F100A1AD76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Aleksandr;
+				TargetAttributes = {
+					9E816807255D68F100A1AD76 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 9E816803255D68F100A1AD76 /* Build configuration list for PBXProject "Meditation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9E8167FF255D68F100A1AD76;
+			productRefGroup = 9E816809255D68F100A1AD76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E816807255D68F100A1AD76 /* Meditation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E816806255D68F100A1AD76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E816818255D68F300A1AD76 /* LaunchScreen.storyboard in Resources */,
+				9E816815255D68F300A1AD76 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E816804255D68F100A1AD76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E81682A255EA60600A1AD76 /* UserViewController.swift in Sources */,
+				9E332DBC257E444F00894AD2 /* ScrollItem.swift in Sources */,
+				9E8168582562DAB900A1AD76 /* StartViewController.swift in Sources */,
+				9E332D9C257435D300894AD2 /* CourseDetailsViewController.swift in Sources */,
+				9E816830255ECD6700A1AD76 /* HeadingSleepCell.swift in Sources */,
+				9E332DBA257E3AB900894AD2 /* MeditateScrollViewLayout.swift in Sources */,
+				9E81685A2562DB1700A1AD76 /* LoginViewController.swift in Sources */,
+				9E332DA2257500D000894AD2 /* CourseDetailsViewCell.swift in Sources */,
+				9E81687525659F7B00A1AD76 /* HorizontalHomeViewCell.swift in Sources */,
+				9E816828255EA5F100A1AD76 /* MusicViewController.swift in Sources */,
+				9E816834255ECFE000A1AD76 /* RelatedSleepCell.swift in Sources */,
+				9E332D9E2574F16000894AD2 /* ChooseTopicViewItem.swift in Sources */,
+				9E332D98256BCCDC00894AD2 /* ChooseTopicViewLayout.swift in Sources */,
+				9E81682E255ECD3400A1AD76 /* SecondSleepViewController.swift in Sources */,
+				9E332DB7257E389400894AD2 /* MeditateScrollViewCell.swift in Sources */,
+				9E81687325659F5100A1AD76 /* VerticalHomeViewCell.swift in Sources */,
+				9E332DAE257D476900894AD2 /* MeditateViewCell.swift in Sources */,
+				9E332D96256ADAD400894AD2 /* ChooseTopicViewCell.swift in Sources */,
+				9E816832255ECFCC00A1AD76 /* InfoSleepCell.swift in Sources */,
+				9E332DAB25783DCE00894AD2 /* VoiceItem.swift in Sources */,
+				9E816826255EA5DF00A1AD76 /* MeditateViewController.swift in Sources */,
+				9E816810255D68F100A1AD76 /* ViewController.swift in Sources */,
+				9E81680C255D68F100A1AD76 /* AppDelegate.swift in Sources */,
+				9E8168562562DA5900A1AD76 /* RegisterViewController.swift in Sources */,
+				9E332DB3257D5D8000894AD2 /* IconsItem.swift in Sources */,
+				9E81687725659F9900A1AD76 /* VerticalScrollHomeViewCell.swift in Sources */,
+				9E332DB0257D50B900894AD2 /* IconsCollectionViewCell.swift in Sources */,
+				9E8168672565339800A1AD76 /* ChooseTopicViewController.swift in Sources */,
+				9E816822255D6C6700A1AD76 /* SleepMusicCell.swift in Sources */,
+				9E81685E2563225C00A1AD76 /* LoginVIewCell.swift in Sources */,
+				9E816824255EA5BA00A1AD76 /* HomeViewController.swift in Sources */,
+				9E8168632565240400A1AD76 /* RemindersViewController.swift in Sources */,
+				9E81685C2562DB2F00A1AD76 /* GetStartedVIewController.swift in Sources */,
+				9E8168612563DD7E00A1AD76 /* RegisterViewCell.swift in Sources */,
+				9E332DA625755D1C00894AD2 /* MaleVoiceCell.swift in Sources */,
+				9E332DB5257E319A00894AD2 /* DailyCalmCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9E816816255D68F300A1AD76 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E816817255D68F300A1AD76 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9E81681A255D68F300A1AD76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9E81681B255D68F300A1AD76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E81681D255D68F300A1AD76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Meditation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vasya.Meditation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9E81681E255D68F300A1AD76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Meditation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vasya.Meditation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E816803255D68F100A1AD76 /* Build configuration list for PBXProject "Meditation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E81681A255D68F300A1AD76 /* Debug */,
+				9E81681B255D68F300A1AD76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E81681C255D68F300A1AD76 /* Build configuration list for PBXNativeTarget "Meditation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E81681D255D68F300A1AD76 /* Debug */,
+				9E81681E255D68F300A1AD76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9E816800255D68F100A1AD76 /* Project object */;
+}
